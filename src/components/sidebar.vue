@@ -115,12 +115,12 @@
           <p class="blue-grey--text text--lighten-4">(Native)</p>
         </v-row>
         <v-row class="d-flex justify-center">
-          <p class="white--text">Inglish</p>
-          <p class="blue-grey--text text--lighten-4">(intermediare)</p>
+          <p class="white--text">English</p>
+          <p class="blue-grey--text text--lighten-4">(Intermediary)</p>
         </v-row>
         <v-row class="d-flex justify-center">
           <p class="white--text">Spanish</p>
-          <p class="blue-grey--text text--lighten-4">(beginner)</p>
+          <p class="blue-grey--text text--lighten-4">(Beginner)</p>
         </v-row>
       </v-card>
 
