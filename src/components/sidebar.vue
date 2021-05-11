@@ -1,7 +1,7 @@
 <template>
-  <div class="d-flex justify-center max-width">
+  <div class="d-flex justify-center max-width white--text">
     <div class="flex-column ma-0 pa-0">
-      <v-card flat class="transparent" style="#05445E">
+      <v-card flat class="transparent white--text" style="#05445E">
         <v-img
           class="rounded-circle ma-0"
           width="230"
@@ -11,12 +11,12 @@
         <v-card-title class="d-flex justify-center"
           >Jubileu Nascimento</v-card-title
         >
-        <v-card-subtitle class="d-flex justify-center"
-          >Developer</v-card-subtitle
+        <v-card-subtitle class="d-flex justify-center white--text "
+          >Developer Jr.</v-card-subtitle
         >
       </v-card>
-      <v-card flat class="transparent">
-        <v-card-subtitle class="pa-0 row">
+      <v-card flat class="transparent mb-12">
+        <v-card-subtitle class="pa-0 row white--text mb-2 mt-3 justify-center">
           <svg
             width="20"
             aria-hidden="true"
@@ -35,7 +35,7 @@
           </svg>
           <p class="mb-0 ml-2">jubileunascimento@gmail.com</p>
         </v-card-subtitle>
-        <v-card-subtitle class="pa-0 row">
+        <v-card-subtitle class="pa-0 row white--text mb-2 justify-center">
           <svg
             width="20"
             aria-hidden="true"
@@ -54,7 +54,7 @@
           </svg>
           <p class="mb-0 ml-2">(21) 9999-9999</p>
         </v-card-subtitle>
-        <v-card-subtitle class="pa-0 row">
+        <v-card-subtitle class="pa-0 row white--text mb-2 justify-center">
           <svg
             width="20"
             aria-hidden="true"
@@ -73,7 +73,7 @@
           </svg>
           <p class="mb-0 ml-2">linkedin@/eriasdas</p>
         </v-card-subtitle>
-        <v-card-subtitle class="pa-0 row">
+        <v-card-subtitle class="pa-0 row white--text mb-2 justify-center">
           <svg
             width="20"
             aria-hidden="true"
@@ -94,20 +94,20 @@
         </v-card-subtitle>
       </v-card>
       <v-card flat class="transparent">
-        <v-card-title class="d-flex justify-center">Education</v-card-title>
-        <h3>ADADADADAD DE DEFERAl</h3>
-        <p>2017-2021</p>
+        <v-card-title style="font-size: 1.75rem" class="d-flex justify-center white--text">Education</v-card-title>
+        <h3 class="white--text">Computer Science, 6º</h3>
+        <p class="white--text">2017-2023</p>
       </v-card>
 
-      <v-card flat class="transparent">
-        <v-card-title class="d-flex justify-center">Languages</v-card-title>
+      <v-card flat class="transparent mt-12">
+        <v-card-title style="font-size: 1.75rem" class="d-flex justify-center white--text ">Languages</v-card-title>
         <p>Portuguese</p>
         <p>Portuguese</p>
         <p>Portuguese</p>
       </v-card>
 
-      <v-card flat class="transparent">
-        <v-card-title class="d-flex justify-center">INTERESTS</v-card-title>
+      <v-card flat class="transparent mt-12">
+        <v-card-title style="font-size: 1.75rem" class="d-flex justify-center white--text">INTERESTS</v-card-title>
         <p>Portuguese</p>
         <p>Portuguese</p>
         <p>Portuguese</p>
