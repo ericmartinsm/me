@@ -1,9 +1,9 @@
 <template>
   <v-app>
-    <v-container>
-      <v-row class="justify-center">
-        <Sidebar class="col-3" style="background-color:#189AB4" />
-        <Body class="col-7" style="background-color:#D4F1F4"  />
+    <v-container class="d-flex justify-center">
+      <v-row class=" d-flex justify-center col-lg-10" >
+        <Sidebar class="col-lg-3" style="background-color:#274472" />
+        <Body class="col-lg-8" style="background-color:#e4f3f7"  />
       </v-row>
     </v-container>
   </v-app>
