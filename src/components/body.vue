@@ -29,7 +29,7 @@
         experience</v-card-text
       >
     </v-card>
-    <v-card flat class="transparent mt-5">
+    <v-card flat class="transparent mt-5 pa-0 col-lg-12 col-md-12 col-sm-12 ">
       <v-toolbar flat class="transparent">
         <svg
           width="27"
