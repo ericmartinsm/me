@@ -63,7 +63,7 @@
       </v-card-text>
     </v-card>
     <v-card flat class="transparent mt-8">
-      <v-toolbar flat class="transparent">
+      <v-toolbar flat class="transparent mb-7">
         <svg
           style="color: #05445e; background-color: #189ab4"
           width="28"
@@ -84,14 +84,8 @@
         </svg>
         <v-toolbar-title class="ml-5">Skills </v-toolbar-title>
       </v-toolbar>
-      <v-row class="mt-4 d-flex flex-column">
-        <!-- <v-chip class="white--text" style=";background-color:#005b80" filter>HTML</v-chip>
-        <v-chip class="white--text" style=";background-color:#005b80" filter>CSS</v-chip>
-        <v-chip class="white--text" style=";background-color:#005b80" filter>JavaScript</v-chip>
-        <v-chip class="white--text" style=";background-color:#005b80" filter>VueJs</v-chip>
-        <v-chip class="white--text" style=";background-color:#005b80" filter>Vuetify</v-chip>
-        <v-chip class="white--text" style=";background-color:#005b80" filter>C++</v-chip>
-        <v-chip class="white--text" style=";background-color:#005b80" filter>Angular</v-chip> -->
+      <v-row class=" ma-0  d-flex flex-column col-md-12 col-sm-12 col-xs-12">
+
         <v-row class="d-flex justify-space-around">
           <v-progress-circular
             :rotate="360"
@@ -172,7 +166,7 @@
             </svg>
           </v-progress-circular>
         </v-row>
-        <v-row class="d-flex justify-space-around mt-10">
+        <v-row class="d-flex justify-space-around mt-10 ">
           <v-progress-circular
             :rotate="360"
             :size="100"
