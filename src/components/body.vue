@@ -20,16 +20,16 @@
             d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
           ></path>
         </svg>
-        <v-toolbar-title class="ml-5 d-flex justify-center"> Carrer Profile </v-toolbar-title>
+        <v-toolbar-title class="ml-5 d-flex justify-center">
+          Carrer Profile
+        </v-toolbar-title>
       </v-toolbar>
       <v-card-text
-        >Student in the 6th period of Computer Science, completely passionate
-        about development and with an insatiable thirst for knowledge. I seek an
-        opportunity in the area to improve / acquire knowledge and
-        experience</v-card-text
+        >Development student since 2019, passionate about front-end and new
+        challenges.</v-card-text
       >
     </v-card>
-    <v-card flat class="transparent mt-5 pa-0 col-lg-12 col-md-12 col-sm-12 ">
+    <v-card flat class="transparent mt-5 pa-0 col-lg-12 col-md-12 col-sm-12">
       <v-toolbar flat class="transparent">
         <svg
           width="27"
@@ -51,15 +51,20 @@
         </svg>
         <v-toolbar-title class="ml-5"> Experiences </v-toolbar-title>
       </v-toolbar>
-      <h5 class="ml-4 mt-4">Farmacon</h5>
+      <h5 class="ml-4 mt-4"><a href="https://fullbar.com.br/" style="text-decoration:none;">Fullbar Digital</a></h5>
       <v-card-text class="pa-0 ml-4"
-        >Currently working at Farmacon, I work as a junior front-end developer
-        using: HTML, CSS, JS, ApiRest, VUEJS, VUETIFY</v-card-text
+        >Currently working as a front end developer since 2021 where mainly
+        using: VUE, REACT.JS, REACT NATIVE, API REST, CSS, HTML, JQUERY</v-card-text
       >
-      <h5 class="ml-4 mt-2">GlobalHitss</h5>
+      <h5 class="ml-4 mt-4"><a href="https://www.linkedin.com/in/farmaconparafarmacias/?originalSubdomain=br" style="text-decoration:none;">Farmacon Contabilidade</a></h5>
+      <v-card-text class="pa-0 ml-4"
+        >Hired as a Junior to develop a task system for company employees using:
+        HTML, CSS, JS, ApiRest, VUEJS, VUETIFY</v-card-text
+      >
+      <h5 class="ml-4 mt-2"><a href="https://globalhitss.com/" style="text-decoration:none;">GlobalHitss</a></h5>
       <v-card-text class="pa-0 ml-4">
-        I worked at GlobalHitss for 6 months as an intern using: Apex and
-        Salesforce
+        Internship contract where I had the opportunity to absorb knowledge of
+        MVC, Apex and Salesforce
       </v-card-text>
     </v-card>
     <v-card flat class="transparent mt-8">
@@ -84,8 +89,7 @@
         </svg>
         <v-toolbar-title class="ml-5">Skills </v-toolbar-title>
       </v-toolbar>
-      <v-row class=" ma-0  d-flex flex-column col-md-12 col-sm-12 col-xs-12">
-
+      <v-row class="ma-0 d-flex flex-column col-md-12 col-sm-12 col-xs-12">
         <v-row class="d-flex justify-space-around">
           <v-progress-circular
             :rotate="360"
@@ -166,7 +170,7 @@
             </svg>
           </v-progress-circular>
         </v-row>
-        <v-row class="d-flex justify-space-around mt-10 ">
+        <v-row class="d-flex justify-space-around mt-10">
           <v-progress-circular
             :rotate="360"
             :size="100"
@@ -224,10 +228,10 @@
             :rotate="360"
             :size="100"
             :width="15"
-            :value="25"
+            :value="75"
             color="#48CEF7"
           >
-            <p style="position: absolute; top: 65px; font-size: 10px">25%</p>
+            <p style="position: absolute; top: 65px; font-size: 10px">75%</p>
             <svg
               width="40"
               height="40"

@@ -6,14 +6,14 @@
           class="rounded-circle ma-0"
           width="200"
           height="200"
-          src="https://media-exp1.licdn.com/dms/image/C5603AQGiutiKNBGHqA/profile-displayphoto-shrink_800_800/0/1620398028794?e=1626307200&v=beta&t=8BznkCgFS6bkCHPfcX9g4VtbNtNCz66_N2_ySw8MrX0"
+          src="https://media-exp2.licdn.com/dms/image/C5603AQGiutiKNBGHqA/profile-displayphoto-shrink_200_200/0/1620398028794?e=1661990400&v=beta&t=LgIiwlbtJsNCe2mR_2PnXqRnCIh0ACMKHyfVW-AoRBo"
         ></v-img>
         <v-card-title class="d-flex justify-center"
           >Eric Martins</v-card-title
         >
         <v-card-subtitle
           class="d-flex justify-center blue-grey--text text--lighten-5"
-          >Developer Jr.</v-card-subtitle
+          >Front-end Developer</v-card-subtitle
         >
       </v-card>
       <v-card flat class="transparent mb-12">
